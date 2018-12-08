@@ -18,7 +18,7 @@ function init() {
     $('#Mines').html('');
     columns = $("[name='columns']").val();
     lines = $("[name='lines']").val();
-    nbMines = 1;
+    nbMines = $("[name='nbMines']").val();
     nbFlags = nbMines;
     toDiscover = columns * lines - nbMines;
     //count = 0;
